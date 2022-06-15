@@ -2,6 +2,7 @@
 
 A standard hardware bottleneck when training deep neural networks is GPU memory. The bulk of memory is occupied by caching intermediate tensors for gradient computation in the backward pass. We propose a novel method to reduce this footprint - Dropping Intermediate Tensors (DropIT), which drops min-k components of the intermediate tensors and approximates gradients from the sparsified tensors in the backward pass. We further propose N-sigma thresholding as a time-efficient approximation to min-k and significantly reduce computational overhead. Experiments showed that we can drop up to 80% of the elements of the intermediate tensors in fully-connected layers, saving 20\% of total GPU memory during training with no accuracy losses for Vision Transformers.
 
+![figure1](https://user-images.githubusercontent.com/105878704/173801865-220f3938-9a52-456b-a04d-52e67fca2be7.png)
 
 
 ## Install
@@ -38,6 +39,7 @@ Evaluation will be performed every N (N can be set in config, by default, N = 1)
 tensorboard  --port=8888 --logdir ./outputs
 ```
 
+![figure2](https://user-images.githubusercontent.com/105878704/173801881-9dc18494-6a22-4206-88c0-55ea8c6d9358.png)
 
 
 To measure speed and memory, please edit and run [check.py](check.py).
