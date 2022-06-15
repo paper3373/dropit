@@ -4,6 +4,8 @@ A standard hardware bottleneck when training deep neural networks is GPU memory.
 
 ![figure1](https://user-images.githubusercontent.com/105878704/173801865-220f3938-9a52-456b-a04d-52e67fca2be7.png)
 
+**Our core implementation is [dropit.py](dropit.py).**
+
 
 ## Install
 
