@@ -61,7 +61,7 @@ We found PyTorch version has some minor impacts on the performance.
 #### PyTorch 1.11.0:
 |  Model   | Top-1 Acc | Top-5 Acc | Max Mem (GB) |
 |  ----  | ----  |  ----  | ---- |
-| DeiT-Ti/16 (224x224) | 85.4 | 97.8 | 8.6 |
+| DeiT-Ti/16 (224x224) | 85.4 | 97.8 | 8.7 |
 | DeiT-Ti/16 (224x224) w. DropIT ($N$-$\sigma$, $\gamma=0.8$) | **85.7** | **98.1** | **6.8** |
 
 ### ImageNet-1k
