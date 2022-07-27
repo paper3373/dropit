@@ -58,7 +58,7 @@ We found PyTorch version has some minor impacts on the performance.
 | DeiT-Ti/16 (224x224) | 85.7 | 97.8 | 10.0 |
 | DeiT-Ti/16 (224x224) w. DropIT ($N$-$\sigma$, $\gamma=0.8$) | **85.9** | **97.9** | **8.1** |
 
-#### PyTorch 1.11.0:
+#### PyTorch 1.12.0:
 |  Model   | Top-1 Acc | Top-5 Acc | Max Mem (GB) |
 |  ----  | ----  |  ----  | ---- |
 | DeiT-Ti/16 (224x224) | 85.4 | 97.8 | 8.7 |
